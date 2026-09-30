@@ -1,0 +1,14 @@
+
+Situation:
+The raw revenue was ₹99,860.20.
+After removing duplicate records, the cleaned revenue was ₹97,358.30.
+The duplicate-driven reconciliation difference was ₹2,501.90.
+
+Complication:
+Returns are concentrated in COD orders, which have a 44.4% return rate.
+COD orders from Tier 2 cities show the highest-risk segment return rate at 54.5%.
+
+Resolution:
+January appeared to generate ₹29,582.10, but after accounting for the flagged bulk-order outliers, its corrected revenue was ₹11,637.10.
+The true peak revenue month was March 2026 at ₹20,318.90.
+Management should therefore use the cleaned and outlier-aware revenue picture when interpreting business performance.
