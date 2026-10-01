@@ -1,5 +1,7 @@
 # Capstone-Project-Mamaearth-Returns-Growth-Intelligence-Pipeline
 
+### Dhanumjay Rajesh Jagarapu
+
 ## Project Overview
 
 This capstone builds an end-to-end returns and growth intelligence pipeline for Mamaearth using SQL, Python, data visualization, and GenAI-assisted business narration.
