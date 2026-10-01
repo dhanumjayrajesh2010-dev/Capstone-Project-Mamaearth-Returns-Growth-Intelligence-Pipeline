@@ -1,7 +1,12 @@
 
+
 import json
 import os
-from google import genai
+
+try:
+    from google import genai
+except ImportError:
+    genai = None
 
 with open("narrator/findings.json", "r") as file:
     findings = json.load(file)
@@ -146,9 +151,8 @@ if result["status"] == "error":
     print("Gemini API unavailable or not configured. Using offline fallback.")
     result = generate_scr_narrative_offline(findings)
 
-with open("narrator/sample_output.txt", "w") as file:
+with open("narrator/sample_output.txt", "w", encoding="utf-8") as file:
     file.write(result["narrative"])
 
 print(result["narrative"])
 check_narrative(result["narrative"])
-
